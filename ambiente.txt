@@ -1,0 +1,22 @@
+Instalação de dependências
+
+sudo apt-get install build-essential (gcc C, C++)
+sudo apt-get install python3-dev
+sudo apt-get install python3-setuptools
+sudo apt-get install python3-pip
+sudo pip3 install virtualenv
+
+Preparação do ambiente virtual
+
+virtualenv -p /usr/bin/python3.4 nome_ambiente
+cd meu_ambiente
+source bin/activate
+pip install django
+pip install django==1.7.7 (específica)
+
+Interpretadores Python
+
+sudo apt-get install ipython (2.7)
+sudo apt-get install ipython3 (3.x)
+
+
